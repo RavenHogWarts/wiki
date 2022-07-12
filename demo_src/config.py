@@ -49,7 +49,7 @@ nav = [
         "target": "_self"
     },
     {
-        "name": "友链",
+        "name": "友人帐",
         "url": "${site_prefix}link/",
         "target": "_self"
     }
