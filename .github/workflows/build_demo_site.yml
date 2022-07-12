@@ -27,7 +27,7 @@ jobs:
 
     - name: Build
       env:
-        site_prefix: /Maverick/
+        site_prefix: /wiki/
       run: |
         python3 mvrk.py --config demo_src/config.py --source_dir ./demo_src/ --build_dir ./dist/
 
