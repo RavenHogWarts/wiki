@@ -15,7 +15,7 @@ tags:
 <div id="links">
   <ul>
     <li><a href="https://www.imalan.cn" title="只坚持一种正义。我的正义">AlanDecode
-    <img src="https://www.imalan.cn/favicon-32x32.png?v=yyLyaqbyRG" alt="">
+    <img src="https://cdn.jsdelivr.net/gh/RavenHogWarts/wiki@gh-pages/logo/logo_01.png" alt="">
     </a></li>
     <li><a href="https://lcxddn.github.io/" title="welcome to my world!">GasL
     <img src="https://lcxddn.github.io/images/apple-touch-icon-next.png" alt="">
