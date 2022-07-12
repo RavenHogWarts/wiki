@@ -5,10 +5,12 @@ slug: link
 date: 2022/06/18 22:29
 status: publish
 author: ZEROJAN
+comment: true
 categories: 
   - 友链
 tags: 
   - link
+
 ---
 <div id="links">
   <ul>

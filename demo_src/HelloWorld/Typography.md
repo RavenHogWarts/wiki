@@ -5,6 +5,7 @@ slug: HelloWorld
 date: 2022-06-18 23:50
 status: publish
 author: ZEROJAN
+comment: false
 categories: 
   - HelloWorld
 tags:
