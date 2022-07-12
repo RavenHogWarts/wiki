@@ -5,22 +5,15 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>/Maverick/about/</loc>
-    <lastmod>2017-06-28</lastmod>
+    <loc>/Maverick/link/</loc>
+    <lastmod>2022-06-18</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
-    <loc>/Maverick/archives/overview/</loc>
-    <lastmod>2019-12-11</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
-    <loc>/Maverick/archives/typography/</loc>
-    <lastmod>2018-11-09</lastmod>
+    <loc>/Maverick/archives/HelloWorld/</loc>
+    <lastmod>2022-06-18</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
