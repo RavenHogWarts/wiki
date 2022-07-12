@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/Maverick/</id><title>ZEROJAN WIKI</title><updated>2022-07-12T04:17:46.870140+08:06</updated><author><name>ZEROJAN</name><email>fengyj120@163.com</email></author><link href="/Maverick/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/RavenHogWarts/wiki@gh-pages/logo.png</logo><subtitle>算是半个有趣的人</subtitle><entry><id>/Maverick/archives/HelloWorld/</id><title>Hello World!</title><updated>2022-07-12T04:17:46.870187+00:00</updated><author><name>ZEROJAN</name><email>fengyj120@163.com</email><uri>https://ravenhogwarts.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/wiki/</id><title>ZEROJAN WIKI</title><updated>2022-07-12T04:36:23.599397+08:06</updated><author><name>ZEROJAN</name><email>fengyj120@163.com</email></author><link href="/wiki/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/RavenHogWarts/wiki@gh-pages/logo.png</logo><subtitle>算是半个有趣的人</subtitle><entry><id>/wiki/archives/HelloWorld/</id><title>Hello World!</title><updated>2022-07-12T04:36:23.599463+00:00</updated><author><name>ZEROJAN</name><email>fengyj120@163.com</email><uri>https://ravenhogwarts.github.io</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -77,4 +77,4 @@
 &lt;li id="fn-1"&gt;&lt;p&gt;Home page for AlanDecode&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</content><link href="/Maverick/archives/HelloWorld/" rel="alternate"/><published>2022-06-18T23:50:00+08:06</published></entry></feed>
+</content><link href="/wiki/archives/HelloWorld/" rel="alternate"/><published>2022-06-18T23:50:00+08:06</published></entry></feed>
