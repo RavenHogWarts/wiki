@@ -1,20 +1,18 @@
 ---
 layout: post
-title: Typography
-slug: typography
-date: 2018/11/09 23:41:00
+title: Hello World!
+slug: HelloWorld
+date: 2022-06-18 23:50
 status: publish
-author: AlanDecode
+author: ZEROJAN
 categories: 
-  - Maverick
+  - HelloWorld
 tags:
-  - Design
-  - Typography
+  - Hello World
+excerpt: 这是一篇示例文章，在这里你可以看到常用页面元素的显示效果。
 ---
 
-[notice]This is an sample article. Typography matters in Maverick.[/notice]
-
-<!--more-->
+[notice]这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！[/notice]
 
 ## L2 Heading
 
@@ -39,6 +37,7 @@ We are creating a world where anyone, anywhere may express his or her beliefs, n
 ## Blockquote and nested blockquote
 
 > 安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。
+> 
 > > 呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！
 
 ## Code
@@ -51,22 +50,23 @@ int main(int argc , char** argv){
     return 0;
 }
 ```
+
 ## List
 
 ### Unordered List
 
 * iPhone
-    * iPhone X
-    * iPhone 11
+  * iPhone X
+  * iPhone 11
 * iPad
 * MacBook
 
 ### Ordered List
 
 1. 打开冰箱
-    1. 右手放在冰箱门拉手上
-    2. 左手扶住冰箱主体
-    3. 右手向后用力
+   1. 右手放在冰箱门拉手上
+   2. 左手扶住冰箱主体
+   3. 右手向后用力
 2. 把大象放进冰箱
 3. 关上冰箱
 
@@ -84,19 +84,21 @@ $$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$
 
 ### Single figure
 
-![Princess Mononoke](./assets/2934349b033b5bb5a19efc7233d3d539b700bcf5.jpg)
+![Princess Mononoke](.assets/Typography_2022-07-12_12-06-11.jpg) 
 
 ### Photoset
 
-![](./assets/IMG_0073.jpeg) ![][1] ![](./assets/IMG_0053.jpeg)
-![](./assets/IMG_0039.jpeg) ![](./assets/IMG_0051.jpeg) ![](./assets/IMG_0005.jpeg)
+[photos]
+![](.assets/Typography_2022-07-12_12-06-11.jpg)  
 
+![][1]
+[/photos]
 ## Table
 
-header | header
---------- | -------------
-cell 1 | cell 2
-cell 3 | cell 4
+| header | header |
+| ------ | ------ |
+| cell 1 | cell 2 |
+| cell 3 | cell 4 |
 
 ## Link Card
 
@@ -104,5 +106,4 @@ cell 3 | cell 4
 [AlanDecode](https://www.imalan.cn)+(https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&r=G&d=)
 [/links]
 
-
-  [1]: ./assets/1463017562.jpg
+[1]: .assets/Typography_2022-07-12_12-03-13.jpeg

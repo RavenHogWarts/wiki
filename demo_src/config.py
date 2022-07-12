@@ -3,86 +3,80 @@
 """
 
 # For Maverick
-site_prefix = "/"
-template = "Galileo"
+site_prefix = "/wiki/"
 index_page_size = 10
 archives_page_size = 30
-fetch_remote_imgs = False
-enable_jsdelivr = {
-    "enabled": False,
-    "repo": "AlanDecode/Maverick@gh-pages"
-}
+fetch_remote_imgs = True
+category_by_folder = True
 locale = "Asia/Shanghai"
-category_by_folder = False
+template = {
+    "name": "Kepler",
+    "type": "git",
+    "url": "https://github.com/RavenHogWarts/Theme-For-Maverick.git",
+    "branch": "Kepler"
+}
+enable_jsdelivr = {
+    "enabled": True,
+    "repo": "RavenHogWarts/wiki@gh-pages"
+}
 
 # For site
-site_name = "Maverick"
-site_logo = "${static_prefix}android-chrome-512x512.png"
-site_build_date = "2019-12-06T12:00+08:00"
-author = "AlanDecode"
-email = "hi@imalan.cn"
-author_homepage = "https://www.imalan.cn"
-description = "This is Maverick, Theme Galileo."
-key_words = ["Maverick", "AlanDecode", "Galileo", "blog"]
-language = 'english'
+site_name = "ZEROJAN WIKI"
+site_logo = "${static_prefix}logo.png"
+site_build_date = "2022-06-18T17:20+08:00"
+author = "ZEROJAN"
+email = "fengyj120@163.com"
+author_homepage = "https://ravenhogwarts.github.io"
+description = "算是半个有趣的人"
+key_words = ['Maverick', 'ZEROJAN', 'Kepler', 'WiKi']
+language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    },
-    {
-        "name": "Triple NULL",
-        "url": "https://www.imalan.cn",
-        "brief": "Home page for AlanDecode."
+        "name": "GitHub",
+        "url": "https://github.com/RavenHogWarts",
+        "icon": "gi gi-github"
     }
 ]
 nav = [
     {
-        "name": "Home",
+        "name": "首页",
         "url": "${site_prefix}",
         "target": "_self"
     },
     {
-        "name": "Archives",
+        "name": "归档",
         "url": "${site_prefix}archives/",
         "target": "_self"
     },
     {
-        "name": "About",
-        "url": "${site_prefix}about/",
+        "name": "友链",
+        "url": "${site_prefix}link/",
         "target": "_self"
     }
 ]
 
 social_links = [
     {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
-    {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/RavenHogWarts",
         "icon": "gi gi-github"
-    },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
     }
 ]
 
 valine = {
     "enable": True,
     "el": '#vcomments',
-    "appId": "IKRAfuPq0zrz6Wfje8ahHAIP-gzGzoHsz",
-    "appKey": "lFaCWkd4xCs0Ng5UWs1eHNwU",
+    "appId": "bdG6jPOLFe19NOSerM9vEJqp-gzGzoHsz",
+    "appKey": "AT7QLaEOWmqaI8pcwb8324As",
     "visitor": True,
     "recordIP": True
 }
 
-head_addon = ''
+head_addon = r'''
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/RavenHogWarts/wiki@gh-pages/favicon.ico">
+'''
 
 footer_addon = ''
 
